@@ -3,7 +3,10 @@ public class Ejercicio2_GestionMenu {
     public static void main(String[] args) {
         Cuenta cuenta = new Cuenta("Luis Mendez");
 
+<<<<<<< HEAD
         
+=======
+>>>>>>> 0605e6831a3e34c769a2f911dfa72ab9bd0b68ff
         cuenta.agregarMenu(new MenuCarta("Lomo fino", 15.00, 3.00, 2.00, 10));
         cuenta.agregarMenu(new MenuDia("Sopa del dia", 5.50, 1.50, 1.00));
         cuenta.agregarMenu(new MenuNinos("Hamburguesa", 4.00, 0.50, 0.50));
@@ -170,4 +173,3 @@ class Cuenta {
         return reporte;
     }
 }
-
