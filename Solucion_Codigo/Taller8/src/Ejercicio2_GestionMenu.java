@@ -3,7 +3,7 @@ public class Ejercicio2_GestionMenu {
     public static void main(String[] args) {
         Cuenta cuenta = new Cuenta("Luis Mendez");
 
-        // Crear distintos menús
+        
         cuenta.agregarMenu(new MenuCarta("Lomo fino", 15.00, 3.00, 2.00, 10));
         cuenta.agregarMenu(new MenuDia("Sopa del dia", 5.50, 1.50, 1.00));
         cuenta.agregarMenu(new MenuNinos("Hamburguesa", 4.00, 0.50, 0.50));
@@ -32,7 +32,7 @@ abstract class Menu {
     }
 }
 
-// Menú a la carta
+
 class MenuCarta extends Menu {
     public double valorInicial;
     public double guarnicion;
@@ -61,7 +61,7 @@ class MenuCarta extends Menu {
     }
 }
 
-// Menú del día
+
 class MenuDia extends Menu {
     public double valorInicial;
     public double postre;
